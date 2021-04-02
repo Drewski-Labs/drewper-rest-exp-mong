@@ -1,0 +1,30 @@
+{
+  "name": "drewper-rest-exp-mong",
+  "version": "1.0.0",
+  "description": "Drewski Labs Helper - RESTful with ExpressJS & MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drewski-Labs/drewper-rest-exp-mong.git"
+  },
+  "keywords": [
+    "REST",
+    "Express",
+    "Mongo",
+    "ExpressJS",
+    "MongoDB"
+  ],
+  "author": "Wes Cutting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Drewski-Labs/drewper-rest-exp-mong/issues"
+  },
+  "homepage": "https://github.com/Drewski-Labs/drewper-rest-exp-mong/",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}
