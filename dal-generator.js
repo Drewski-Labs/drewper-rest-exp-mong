@@ -51,7 +51,7 @@ const connect = () => {
     return iou;
 }
 
-class MongooseDataAccessLayer {
+class MongooseDAL {
     constructor(name, schema){ 
         console.log(`---- Making ${name} Connection ----`)
         const connection = mongoose.createConnection(DB_URL, options);
@@ -86,5 +86,5 @@ class MongooseDataAccessLayer {
 
 module.exports = {
     connect,
-    MongooseDataAccessLayer
+    MongooseDAL
 }

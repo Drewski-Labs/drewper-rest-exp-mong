@@ -1,8 +1,8 @@
-const { connect, MongooseDataAccessLayer } = require('./dal-generator');
+const { connect, MongooseDAL } = require('./dal-generator');
 const routeGenerator = require('./route-generator');
 
 module.exports = {
     connect, 
-    MongooseDataAccessLayer,
+    MongooseDAL,
     routeGenerator
 }
