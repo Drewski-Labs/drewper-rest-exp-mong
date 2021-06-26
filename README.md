@@ -49,7 +49,7 @@ const UserSchema = require('../../../data/schemas/user-schema');
 // Provides CRUD wrapper for Mongoose Operations
 const UserCollection = new MongooseDAL('User', UserSchema);
 // Aligns that MongoDB Collection helper with Express RESTFul Endpoints
-router.use('/users', MongooseDAL(UserCollection));
+router.use('/users', RouterGenerator(UserCollection));
 
 module.exports = router;
 ```
